@@ -1,7 +1,12 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
+import React from "react";
+import Intropage from "./intro";
 
 let Home = (): JSX.Element => {
-  return <></>;
+  return (
+    <>
+      <Intropage />
+    </>
+  );
 };
+
 export default Home;
