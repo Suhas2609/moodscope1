@@ -41,7 +41,7 @@ const Loading = (): JSX.Element | null => {
 
 const App = ({ Component, pageProps }: AppProps) => {
   const router = useRouter();
-
+  /*
   useEffect(() => {
     // Simulate a loading delay (5 seconds) before redirecting to the login page
     const delay = setTimeout(() => {
@@ -49,7 +49,7 @@ const App = ({ Component, pageProps }: AppProps) => {
     }, 3000);
 
     return () => clearTimeout(delay);
-  }, [router]);
+  }, [router]);*/
   return (
     <>
       <Loading />
